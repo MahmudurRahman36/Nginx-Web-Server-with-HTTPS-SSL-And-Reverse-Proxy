@@ -1,0 +1,13 @@
+[Unit]
+Description=Backend Node.js App
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/node /var/www/backend-app/app.js
+Restart=always
+User=ubuntu
+Environment=NODE_ENV=production
+WorkingDirectory=/var/www/backend-app
+
+[Install]
+WantedBy=multi-user.target
