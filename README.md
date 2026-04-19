@@ -112,13 +112,13 @@ sudo systemctl reload nginx
 ## 📸 Evidence & Screenshots
 
 ### https working
-![https-working](./https-working.png)
+![https-working](./screenshots/https-working.png)
 
 ### http redirect to https working
-![redirect-working](./redirect-working.png)
+![redirect-working](./screenshots/redirect-working.png)
 
 ### backend service running
-![backend-running](./backend-running.png)
+![backend-running](./screenshots/backend-running.png)
 
 
 
@@ -128,9 +128,10 @@ sudo systemctl reload nginx
 Nginx-Web-Server-with-HTTPS-SSL-And-Reverse-Proxy/
 │
 ├── README.md
-├── index.html
 ├── app.js
 ├── backend-app.service
+├── index.html
+├── secure-app
 ├── screenshots/
 │   ├── https-working.png
 │   ├── redirect-working.png
