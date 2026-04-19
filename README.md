@@ -125,7 +125,7 @@ sudo systemctl reload nginx
 ## Project Structure
 
 ```
-module-3-nginx-ssl/
+Nginx-Web-Server-with-HTTPS-SSL-And-Reverse-Proxy/
 │
 ├── README.md
 ├── index.html
